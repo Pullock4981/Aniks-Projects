@@ -43,22 +43,42 @@
         transition: all 0.3s;
     }
 
-
+    .owners-card-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        /* text-align: center; */
+    }
 
     .owners h3 {
         color: white;
         font-family: sans-serif;
         text-align: center;
         font-size: 3rem;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        background-color: #f180359a;
+        margin: 20px;
+        margin-right: 20%;
+        margin-left: 20%;
+        border-radius: 5rem;
+        font-style: italic;
+        font-stretch: wider;
     }
 
-    .owners-card-section {
+    .owners-card {
+        flex: 1;
+        height: 480px;
+        border-radius: 0.6rem;
+        background-color: #f1803555;
+        border: #f180359a solid 0.5px;
+        box-shadow: 5px 5px 15px 1px;
+        padding: 2rem;
+        margin: 20px 20px;
         display: flex;
         flex-direction: column;
+        transition: transform 0.3s;
+        border-radius: 20px;
+        text-align: center;
         align-items: center;
-        /* text-align: center; */
     }
 
     .owners-image {
@@ -79,6 +99,10 @@
         /* padding-right: 20rem; */
     }
 
+    .contact-box {
+        text-align: center;
+        margin-left: 2rem;
+    }
 
     #contact-section {
         display: flex;
@@ -88,7 +112,7 @@
         /* flex-direction: column; */
     }
 
-    .contact-btn {
+    .contact-btn{
         width: 15rem;
         height: 4rem;
     }
