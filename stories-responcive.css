@@ -43,54 +43,35 @@
         transition: all 0.3s;
     }
 
-    .owners-card-section {
+    /* hero */
+
+    .bodyimage img {
         display: flex;
-        align-items: center;
-        flex-direction: column;
-        /* text-align: center; */
+        margin: 0 auto;
+        max-width: 100%;
     }
 
-    .owners h3 {
-        color: white;
+    .card img {
+        width: 100%;
+    }
+
+    .storiescard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .upcoming {
+        width: 100%;
         font-family: sans-serif;
-        text-align: center;
-        font-size: 3rem;
-        background-color: #f180359a;
-        margin: 20px;
-        margin-right: 20%;
-        margin-left: 20%;
-        border-radius: 5rem;
-        font-style: italic;
-        font-stretch: wider;
-    }
-
-    .owners-card {
-        flex: 1;
-        height: 480px;
-        border-radius: 0.6rem;
-        background-color: #f1803555;
-        border: #f180359a solid 0.5px;
-        box-shadow: 5px 5px 15px 1px;
-        padding: 2rem;
-        margin: 20px 20px;
         display: flex;
         flex-direction: column;
-        transition: transform 0.3s;
-        border-radius: 20px;
-        text-align: center;
+        justify-content: center;
         align-items: center;
+        margin-top: 20px;
     }
-
-    .owners-image {
-        display: block;
-        width: 30rem;
-        text-align: center;
-        align-items: center;
-        border-radius: 0.6rem;
-        filter: grayscale(100%);
-        transition: all 0.3s;
-    }
-
     /* footer */
 
     .form-field {
@@ -99,7 +80,7 @@
 
     .contact-box {
         text-align: center;
-        margin-left: 2rem;
+        margin-left: 15rem;
     }
 
     #contact-section {
@@ -110,7 +91,7 @@
         /* flex-direction: column; */
     }
 
-    .contact-btn{
+    .contact-btn {
         width: 15rem;
         height: 4rem;
     }
